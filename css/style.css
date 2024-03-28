@@ -1,0 +1,85 @@
+
+body{
+    background-color: #073ef3; 
+}
+.capa{
+    text-align: center;
+}
+body,html,#home{
+    height: 100%;
+    overflow-x:hidden ;
+ }
+.caixa{ 
+    border: 1px solid #e5e5e5;
+}
+.btn-outline-success,.btn-outline-success2,.btn-outline-success3{
+    color: #07f33a;
+    background-color: transparent;
+    background-image: none;
+    border-radius: 10px;
+    border: 1.8px solid #07f33a;
+    padding: 15px;
+}
+.btn-outline-success:hover {
+    color: white;
+    background-color: #073ef3;
+    background-image: none;
+    border-radius: 10px;
+    border: 1.8px solid #07f33a;
+    padding: 15px;
+    box-shadow: 0 0 20px #07f33a,inset 0 0 20px #07f33a;
+}
+.btn-outline-success2:hover{
+    transform: translateY(-10px);
+    transition: 2s;
+    border-width: 3px ;
+    box-shadow: 0 0 20px #07f33a,inset 0 0 20px #07f33a;
+}
+.btn-outline-success3{
+    box-shadow: 0 0 20px #07f33a,inset 0 0 10px #07f33a;
+}
+.flex-wrap{
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.box {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    
+    padding: 10px;
+    justify-content: center;
+    width: 260px;
+    height: 100%;
+}
+
+
+.box:hover{
+    transform: translateY(10px);
+    box-shadow: 0 0 20px #07f33a,inset 0 0 10px #07f33a;
+}
+
+.texto{
+    margin-top: -5rem;
+    text-align: center;
+    background-color: #04259e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #04259e;
+}
+
+#footer{
+    background-color: #04259e;
+    padding: 30px;
+}
+footer  a{
+    color: #ffffff;
+    font-size: 1.3em;
+}
+footer  a:hover{
+    color: #3e50eb;
+    text-decoration: none;
+}
+.efet{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #fff;
+}
