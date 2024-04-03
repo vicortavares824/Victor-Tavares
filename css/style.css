@@ -117,4 +117,6 @@ footer  a:hover{
 .efet{
     border-radius: 10px;
     box-shadow: 0 0 15px #fff;
+    padding: 10px;
+    background-color: #ffffff;
 }
