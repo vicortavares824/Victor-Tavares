@@ -16,4 +16,3 @@ chk.addEventListener('change', () => {
     coralterna[i].classList.toggle('nova-cor');
   }
 });
-
