@@ -13,14 +13,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  
   height: 26px;
   width: 50px;
   transform: scale(1.5);
   color: #07f33a;
   background-color: transparent;
   background-image: none;
-  border-radius: 10px;
   border: 1.8px solid #07f33a;
   margin: 0px;
   
