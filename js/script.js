@@ -5,12 +5,16 @@ chk.addEventListener('change', () => {
   forinter(document.getElementsByClassName('icon'),'text-dark');
   forinter(document.getElementsByClassName('tod-white'),'bg-white');
   forinter(document.getElementsByClassName('myid'),'bg-dark');
+  forinter(document.getElementsByClassName('bc'),'d-none');
   function forinter(obj,bost){
-    for (let i = 0; i < obj.length; i++) {
-      obj[i].classList.toggle(bost);
+    for (let i = 0; i < obj.length; i++) { 
+        obj[i].classList.toggle(bost); 
     }
   }
+  
+  
 });
+
 
 
 
